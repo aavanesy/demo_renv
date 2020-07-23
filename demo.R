@@ -3,6 +3,7 @@
 #using main packages at this point
 
 library(renv)
+renv::restore()
 #renv::init()
 
 options(renv.download.override = utils::download.file)
